@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="styles/styleJG.css">
+    <head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <title>Bataille navale</title>
+    
+    <nav>
+        <ul class="topnav">
+            <a  href="home.html" alt="Home">Home</a>
+            <a href = "play_game.html" alt="PG">Play game</a>
+            <a href = "create_game.html" alt="CG">Create game</a>
+            <a class="active" href = "join_game.html"alt=JG>Join game</a>
+            <a href = "manage_fleet.html"alt="MF">Manage fleet</a>
+        </ul>
+    </nav>
+    </head>
+<body>
+<div class="vertical-container">
+    <div class="form-result" id="join-game-result"></div>
+    <div class="centered-form">
+        <form id="join-game-form">
+            <label for="player-name">Ton pseudo:</label><br>
+            <input type="text" id="player-name" name="player_name" required><br><br>
+            <label for="player-name">Identifiant de la partie:</label><br>
+            <input type="text" id="partie-id" name="partie_id" required><br><br>
+            <input class="submit-button" type="submit" value="Valider">
+</body>
+</html>
